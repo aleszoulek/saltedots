@@ -15,10 +15,15 @@
 
 {% endfor %}
 
+/etc/X11/xorg.conf.d:
+  file.recurse:
+    - source: salt://xorg/etc/X11/xorg.conf.d
+
 xorg:
   pkg.installed:
     - pkgs:
       - font-misc-ethiopic
+      - ttf-dejavu
       - xf86-input-evdev
       - xf86-input-joystick
       - xf86-input-keyboard
