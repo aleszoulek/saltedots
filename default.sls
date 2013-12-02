@@ -34,4 +34,13 @@ a:
 
 # TODO store priv key in pillar?
 
+pam_ssh:
+  cmd.run:
+    - name: yaourt -S --noprogressbar --noconfirm pam_ssh
+    - unless: pacman -Q pam_ssh
 
+/etc/pam.d/login:
+  file.managed:
+    - source: salt://user/pam_login
+    - require:
+      - cmd: pam_ssh
