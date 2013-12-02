@@ -1,0 +1,83 @@
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+
+XTerm*underLine:		on
+XTerm*colorMode:		on
+XTerm*colorBD:			lightyellow
+XTerm*colorBDMode:		on
+XTerm*colorUL:			yellow
+XTerm*colorIT:			red
+XTerm*colorULMode:		on
+XTerm*dynamicColors:		off
+XTerm*highlightSelection:	true
+
+XTerm*font:		-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+!XTerm*font:		-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+!XTerm*font:		-*-proggycleanttszbp-*-*-*-*-*-120-*-*-*-*-iso10646-1
+!XTerm*font:		-*-crisp-*-*-*-*-*-*-*-*-*-*-iso10646-1
+!XTerm*faceName: Anonymous Pro
+!XTerm*faceName: Inconsolata-g
+XTerm*faceName: Droid Sans Mono Dotted
+XTerm*faceSize: 10
+
+
+! Xft resources
+Xft.antialias:true
+!Xft.dpi:96
+!Xft.hinting:true
+! hintslight | hintsmedium | hintsfull
+!Xft.hintstyle:hintslight
+! rgba subpixel hinting (for LCDs)
+Xft.rgba:rgb
+Xft.lcdfilter:lcddefault
+
+XTerm*termName:xterm-color
+XTerm*cursorBlink:false
+XTerm*utf8:1
+XTerm*loginShell:true
+! Fix some input and <Alt> for ncurses
+XTerm*eightBitInput:false
+XTerm*altSendsEscape:true
+
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
+
+*background:              S_base03
+*foreground:              S_base0
+*fading:                  40
+*fadeColor:               S_base03
+*cursorColor:             S_base1
+*pointerColorBackground:  S_base01
+*pointerColorForeground:  S_base1
+
+*color0:                  S_base02
+*color1:                  S_red
+*color2:                  S_green
+*color3:                  S_yellow
+*color4:                  S_blue
+*color5:                  S_magenta
+*color6:                  S_cyan
+*color7:                  S_base2
+*color9:                  S_orange
+*color8:                  S_base03
+*color10:                 S_base01
+*color11:                 S_base00
+*color12:                 S_base0
+*color13:                 S_violet
+*color14:                 S_base1
+*color15:                 S_base3
+
+
+

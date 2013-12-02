@@ -1,0 +1,6 @@
+export WORKON_HOME=~/progs/envs
+export VIRTUALENVWRAPPER_VIRTUALENV='virtualenv'
+export VIRTUALENVWRAPPER_PYTHON="$(\which python2)"
+export VIRTUALENVWRAPPER_LOG_DIR=~/progs/envs/logs
+#source ~al3x/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper.sh
