@@ -12,3 +12,4 @@ graphical-packages:
       - firefox
       - xorg-xinit
       - bashrun
+
