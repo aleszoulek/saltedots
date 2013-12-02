@@ -2,12 +2,13 @@ include:
   - vim
   - zsh
   - git
+  - weechat
+  - tmux
 
 default-packages:
   pkg.installed:
     - pkgs:
       - htop
-      - tmux
       - sudo
 
 a:
@@ -31,6 +32,13 @@ a:
     - group: a
     - require:
       - file: /home/a/.ssh
+
+/home/a/bin:
+  file.recurse:
+    - source: salt://user/bin
+    - user: a
+    - group: a
+    - file_mode: 755
 
 # TODO store priv key in pillar?
 
