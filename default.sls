@@ -4,18 +4,22 @@ include:
   - git
   - weechat
   - tmux
+  - sudo
+  - feh
 
 default-packages:
   pkg.installed:
     - pkgs:
       - htop
-      - sudo
 
 a:
   user.present:
     - fullname: Ales Zoulek
     - home: /home/a
     - shell: /bin/zsh
+    - groups:
+      - wheel
+      - audio
 
 /home/a/.ssh:
   file.directory:

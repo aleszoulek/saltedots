@@ -13,4 +13,11 @@ graphical-packages:
       - xorg-xinit
       - bashrun
       - geeqie
+      - flashplugin
+      - alsa-lib
+      - alsa-utils
+      - alsa-oss
+      - alsa-plugins
+      - alsa-tools
+      - mplayer
 
