@@ -1,0 +1,15 @@
+#!/bin/bash
+
+case $1 in
+	raise)
+		amixer -c 0 -- sset PCM playback 1dB+
+		amixer -c 0 -- sset Master playback 1dB+
+	;;
+	lower)
+		amixer -c 0 -- sset PCM playback 1dB-
+		amixer -c 0 -- sset Master playback 1dB-
+	;;
+	toggle)
+		amixer -c 0 -- sset Master toggle
+	;;
+esac

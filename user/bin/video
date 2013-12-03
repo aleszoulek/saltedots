@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+if xrandr| grep VGA1 -A 1 | tail -1 | grep '\*'; then
+	# VGA ENABLED
+	xrandr --output LVDS1 --auto
+	sleep 5
+	xrandr --output VGA1 --off
+else
+	# VGA DISABLED
+	xrandr --output VGA1 --auto
+	sleep 5
+	xrandr --output LVDS1 --off
+fi
+
+# RELOAD BACKGROUND IMAGE
+source ~/.fehbg
+
