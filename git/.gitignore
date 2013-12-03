@@ -2,4 +2,3 @@
 .*.sw?
 /*egg-info
 /.coverage
-.*.swp
