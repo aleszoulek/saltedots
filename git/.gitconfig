@@ -23,7 +23,7 @@
 ;	external = diff
 
 [core]
-	excludesfile = /home/al3x/.gitignore
+	excludesfile = /home/a/.gitignore
 
 [giggle]
 	main-window-maximized = true
