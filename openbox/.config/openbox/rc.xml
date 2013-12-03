@@ -221,7 +221,7 @@
           <enabled>true</enabled>
           <name>xterm</name>
         </startupnotify>
-        <command>/home/al3x/bin/xlock_custom</command>
+        <command>/home/a/bin/xlock_custom</command>
       </action>
     </keybind>
     <keybind key="W-i">
@@ -248,7 +248,7 @@
           <enabled>true</enabled>
           <name>volume toggle</name>
         </startupnotify>
-        <command>/home/al3x/bin/audio_volume toggle</command>
+        <command>/home/a/bin/audio_volume toggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
@@ -257,7 +257,7 @@
           <enabled>true</enabled>
           <name>volume toggle</name>
         </startupnotify>
-        <command>/home/al3x/bin/audio_volume raise</command>
+        <command>/home/a/bin/audio_volume raise</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
@@ -266,7 +266,7 @@
           <enabled>true</enabled>
           <name>volume toggle</name>
         </startupnotify>
-        <command>/home/al3x/bin/audio_volume lower</command>
+        <command>/home/a/bin/audio_volume lower</command>
       </action>
     </keybind>
     <keybind key="W-F4">
@@ -275,7 +275,7 @@
           <enabled>true</enabled>
           <name>sleep</name>
         </startupnotify>
-        <command>/home/al3x/bin/sleep_custom</command>
+        <command>/home/a/bin/sleep_custom</command>
       </action>
     </keybind>
     <keybind key="W-Return">

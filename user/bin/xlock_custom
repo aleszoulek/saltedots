@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#sleep 1s && xset dpms force off && xlock -mode blank -vtlock off +resetsaver
+sleep 1s && xset dpms force off && xlock -mode blank +resetsaver

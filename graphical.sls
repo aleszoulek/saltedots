@@ -7,6 +7,7 @@ graphical-packages:
   pkg.installed:
     - pkgs:
       - xterm
+      - xlockmore
       - openbox
       - chromium
       - firefox
