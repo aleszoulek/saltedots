@@ -11,6 +11,11 @@ default-packages:
   pkg.installed:
     - pkgs:
       - htop
+      - ntp
+      - lshw
+      - acpi
+      - rtorrent
+      - dosfstools
 
 a:
   user.present:
