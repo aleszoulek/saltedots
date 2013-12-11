@@ -16,6 +16,8 @@ default-packages:
       - acpi
       - rtorrent
       - dosfstools
+      - powertop
+      - cpupower
 
 a:
   user.present:

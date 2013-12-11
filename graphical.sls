@@ -21,6 +21,7 @@ graphical-packages:
       - alsa-plugins
       - alsa-tools
       - mplayer
+      - scrot
 
 google-talkplugin:
   cmd.run:
