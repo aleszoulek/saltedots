@@ -22,6 +22,7 @@ graphical-packages:
       - alsa-tools
       - mplayer
       - scrot
+      - gnumeric
 
 google-talkplugin:
   cmd.run:

@@ -18,6 +18,7 @@ default-packages:
       - dosfstools
       - powertop
       - cpupower
+      - python-virtualenvwrapper
 
 a:
   user.present:
