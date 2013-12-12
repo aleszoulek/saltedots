@@ -24,6 +24,8 @@ xorg:
     - pkgs:
       - font-misc-ethiopic
       - ttf-dejavu
+      - ttf-droid
+      - gtk-chtheme
       - xf86-input-evdev
       - xf86-input-joystick
       - xf86-input-keyboard

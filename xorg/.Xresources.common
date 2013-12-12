@@ -20,14 +20,14 @@ XTerm*colorULMode:		on
 XTerm*dynamicColors:		off
 XTerm*highlightSelection:	true
 
-XTerm*font:		-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+!XTerm*font:		-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
 !XTerm*font:		-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 !XTerm*font:		-*-proggycleanttszbp-*-*-*-*-*-120-*-*-*-*-iso10646-1
 !XTerm*font:		-*-crisp-*-*-*-*-*-*-*-*-*-*-iso10646-1
 !XTerm*faceName: Anonymous Pro
 !XTerm*faceName: Inconsolata-g
-XTerm*faceName: Droid Sans Mono Dotted
-XTerm*faceSize: 10
+XTerm*faceName: Droid Sans Mono
+XTerm*faceSize: 9
 
 
 ! Xft resources
