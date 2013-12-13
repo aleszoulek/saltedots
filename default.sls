@@ -19,6 +19,11 @@ default-packages:
       - powertop
       - cpupower
       - python-virtualenvwrapper
+      - jdk7-openjdk
+      - wine-mono
+      - wine_gecko
+      - nmap
+      - ipython
 
 a:
   user.present:
