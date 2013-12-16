@@ -23,6 +23,7 @@ graphical-packages:
       - mplayer
       - scrot
       - gnumeric
+      - gimp
 
 google-talkplugin:
   cmd.run:
