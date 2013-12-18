@@ -11,6 +11,7 @@ default-packages:
   pkg.installed:
     - pkgs:
       - htop
+      - wget
       - ntp
       - lshw
       - acpi
@@ -24,6 +25,8 @@ default-packages:
       - wine_gecko
       - nmap
       - ipython
+      - unrar
+      - lftp
 
 a:
   user.present:
