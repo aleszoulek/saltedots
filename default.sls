@@ -27,6 +27,7 @@ default-packages:
       - ipython
       - unrar
       - lftp
+      - dnsutils
 
 a:
   user.present:
