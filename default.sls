@@ -11,6 +11,7 @@ default-packages:
   pkg.installed:
     - pkgs:
       - htop
+      - sshd
       - wget
       - ntp
       - lshw
@@ -28,6 +29,7 @@ default-packages:
       - unrar
       - lftp
       - dnsutils
+      - s3cmd
 
 a:
   user.present:

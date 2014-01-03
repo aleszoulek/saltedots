@@ -21,9 +21,12 @@ graphical-packages:
       - alsa-plugins
       - alsa-tools
       - mplayer
+      - mkvtoolnix-cli
+      - mkvtoolnix-gtk
       - scrot
       - gnumeric
       - gimp
+      - evince
 
 google-talkplugin:
   cmd.run:
@@ -32,3 +35,10 @@ google-talkplugin:
   require:
     - pkg: graphical-packages
 
+
+ttf-microsoft-arial:
+  cmd.run:
+    - name: yaourt -S --noprogressbar --noconfirm ttf-microsoft-arial
+    - unless: pacman -Q ttf-microsoft-arial
+  require:
+    - pkg: graphical-packages
