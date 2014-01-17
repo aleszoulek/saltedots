@@ -21,7 +21,7 @@ export INPUTRC="~/.inputrc"
 if [ $UID -eq 0 ]; then
         PATH=~root/bin:$PATH
 else
-        PATH="${HOME}/bin:${PATH}:/usr/local/bin:/usr/bin/vendor_perl"
+        PATH="${HOME}/bin:${PATH}:/usr/local/bin:/usr/bin/vendor_perl:/${HOME}/.npm/node_modules/.bin"
 fi
 
 export PATH

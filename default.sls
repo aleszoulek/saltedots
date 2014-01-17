@@ -6,12 +6,12 @@ include:
   - tmux
   - sudo
   - feh
+  - npm
 
 default-packages:
   pkg.installed:
     - pkgs:
       - htop
-      - sshd
       - wget
       - ntp
       - lshw
@@ -30,6 +30,10 @@ default-packages:
       - lftp
       - dnsutils
       - s3cmd
+      - nodejs
+      - redis
+      - nginx
+      - python2-pylint
 
 a:
   user.present:
@@ -69,6 +73,11 @@ pam_ssh:
   cmd.run:
     - name: yaourt -S --noprogressbar --noconfirm pam_ssh
     - unless: pacman -Q pam_ssh
+
+vim-pylint:
+  cmd.run:
+    - name: yaourt -S --noprogressbar --noconfirm vim-pylint
+    - unless: pacman -Q vim-pylint
 
 /etc/pam.d/login:
   file.managed:

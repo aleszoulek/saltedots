@@ -42,3 +42,10 @@ ttf-microsoft-arial:
     - unless: pacman -Q ttf-microsoft-arial
   require:
     - pkg: graphical-packages
+
+ttf-mac-fonts:
+  cmd.run:
+    - name: yaourt -S --noprogressbar --noconfirm ttf-mac-fonts
+    - unless: pacman -Q ttf-mac-fonts
+  require:
+    - pkg: graphical-packages
