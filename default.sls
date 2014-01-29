@@ -13,6 +13,7 @@ default-packages:
     - pkgs:
       - htop
       - wget
+      - net-tools # ifconfig
       - ntp
       - lshw
       - acpi
@@ -32,6 +33,7 @@ default-packages:
       - s3cmd
       - nodejs
       - redis
+      - mariadb # mysql
       - nginx
       - python2-pylint
 
