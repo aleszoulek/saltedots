@@ -2,6 +2,11 @@ gvim:
   pkg:
     - installed
 
+vim-plugins:
+  pkg.installed:
+    - pkgs:
+      - vim-systemd
+
 /home/a/.vim:
   file.recurse:
     - source: salt://vim/.vim
