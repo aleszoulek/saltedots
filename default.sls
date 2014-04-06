@@ -14,6 +14,7 @@ default-packages:
       - htop
       - wget
       - net-tools # ifconfig
+      - docker
       - ntp
       - lshw
       - acpi
@@ -33,9 +34,14 @@ default-packages:
       - s3cmd
       - nodejs
       - redis
+      - postgresql
       - mariadb # mysql
+      - elasticsearch
       - nginx
       - python2-pylint
+      - ruby
+      - gcc
+      - swig
 
 a:
   user.present:
@@ -45,6 +51,7 @@ a:
     - groups:
       - wheel
       - audio
+      - docker
 
 /home/a/.ssh:
   file.directory:
