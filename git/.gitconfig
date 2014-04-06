@@ -14,6 +14,11 @@
 	d = diff
 	dc = diff --cached
 	pull = pull --no-edit
+	g = grep --break --heading --line-number
+
+[grep]
+	lineNumber = true
+	extendRegexp = true
 
 [merge]
 ;	tool = opendiff
