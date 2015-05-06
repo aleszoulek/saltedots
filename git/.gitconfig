@@ -35,8 +35,5 @@
 	main-window-geometry = 700x550+289+125
 	main-window-view = HistoryView
 	history-view-vpane-position = 236
-[github]
-	user = aleszoulek
-	token = 62d08cecc6db9b9ce86eb38b68a10c05
 [push]
 	default = tracking
